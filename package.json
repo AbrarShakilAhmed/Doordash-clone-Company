@@ -1,0 +1,27 @@
+{
+  "name": "doordash-clone-company",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrarShakilAhmed/Doordash-clone-Company.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AbrarShakilAhmed/Doordash-clone-Company/issues"
+  },
+  "homepage": "https://github.com/AbrarShakilAhmed/Doordash-clone-Company#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.5",
+    "nodemon": "^3.1.14"
+  }
+}
