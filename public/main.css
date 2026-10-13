@@ -3,3 +3,307 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --base-font-family-condensed: DD Norms Condensed;
+  --base-color-neutral-15: #d6d6d6ff;
+  --base-color-neutral-25: #c4c4c4ff;
+  --base-color-neutral-35: #b2b2b2ff;
+  --base-color-neutral-45: #9f9f9fff;
+  --base-color-neutral-55: #8b8b8bff;
+  --base-color-neutral-65: #767676ff;
+  --base-color-neutral-75: #606060ff;
+  --base-color-neutral-85: #494949ff;
+  --usage-border-radius-xx-large: var(--base-size-5);
+  --usage-font-family-condensed: var(--base-font-family-condensed);
+  --usage-color-highlight-subdued-default: var(--base-color-red-5);
+  --usage-color-highlight-subdued-hovered: var(--base-color-red-10);
+  --usage-color-highlight-subdued-pressed: var(--base-color-red-20);
+  --usage-color-highlight-default: var(--base-color-red-60);
+  --usage-color-highlight-hovered: var(--base-color-red-70);
+  --usage-color-highlight-pressed: var(--base-color-red-80);
+  --usage-color-highlight-strong-default: var(--base-color-red-70);
+  --usage-color-highlight-strong-hovered: var(--base-color-red-80);
+  --usage-color-highlight-strong-pressed: var(--base-color-red-90);
+  --usage-type-title-large-font-family: var(--usage-font-family-brand);
+  --usage-type-title-large-font-weight: var(--usage-font-weight-xstrong);
+  --usage-type-title-large-size: var(--base-font-size-30);
+  --usage-type-title-large-line-height: var(--base-line-height-20);
+  --usage-type-title-large-letter-spacing: var(--base-letter-spacing-50);
+  --usage-type-title-large-text-decoration: none;
+  --usage-type-title-large-text-transform: none;
+  --usage-type-title-medium-font-family: var(--usage-font-family-brand);
+  --usage-type-title-medium-font-weight: var(--usage-font-weight-xstrong);
+  --usage-type-title-medium-size: var(--base-font-size-25);
+  --usage-type-title-medium-line-height: var(--base-line-height-15);
+  --usage-type-title-medium-letter-spacing: var(--base-letter-spacing-50);
+  --usage-type-title-medium-text-decoration: none;
+  --usage-type-title-medium-text-transform: none;
+  --usage-type-title-condensed-large-font-family: var(
+    --usage-font-family-condensed
+  );
+  --usage-type-title-condensed-large-font-weight: var(
+    --usage-font-weight-xstrong
+  );
+  --usage-type-title-condensed-large-size: var(--base-font-size-30);
+  --usage-type-title-condensed-large-line-height: var(--base-line-height-20);
+  --usage-type-title-condensed-large-letter-spacing: var(
+    --base-letter-spacing-50
+  );
+  --usage-type-title-condensed-large-text-decoration: none;
+  --usage-type-title-condensed-large-text-transform: none;
+  --usage-type-display-large-font-family: var(--usage-font-family-brand);
+  --usage-type-display-large-font-weight: var(--usage-font-weight-xstrong);
+  --usage-type-display-large-size: var(--base-font-size-60);
+  --usage-type-display-large-line-height: var(--base-line-height-60);
+  --usage-type-display-large-letter-spacing: var(--base-letter-spacing-10);
+  --usage-type-display-large-text-decoration: none;
+  --usage-type-display-large-text-transform: none;
+  --usage-type-display-medium-font-family: var(--usage-font-family-brand);
+  --usage-type-display-medium-font-weight: var(--usage-font-weight-xstrong);
+  --usage-type-display-medium-size: var(--base-font-size-40);
+  --usage-type-display-medium-line-height: var(--base-line-height-30);
+  --usage-type-display-medium-letter-spacing: var(--base-letter-spacing-20);
+  --usage-type-display-medium-text-decoration: none;
+  --usage-type-display-medium-text-transform: none;
+  --usage-type-display-x-large-font-family: var(--usage-font-family-brand);
+  --usage-type-display-x-large-font-weight: var(--usage-font-weight-xstrong);
+  --usage-type-display-x-large-size: var(--base-font-size-60);
+  --usage-type-display-x-large-line-height: var(--base-line-height-60);
+  --usage-type-display-x-large-letter-spacing: var(--base-letter-spacing-10);
+  --usage-type-display-x-large-text-decoration: none;
+  --usage-type-display-x-large-text-transform: none;
+  --usage-type-display-condensed-large-font-family: var(
+    --usage-font-family-condensed
+  );
+  --usage-type-display-condensed-large-font-weight: var(
+    --usage-font-weight-xstrong
+  );
+  --usage-type-display-condensed-large-size: var(--base-font-size-60);
+  --usage-type-display-condensed-large-line-height: var(--base-line-height-60);
+  --usage-type-display-condensed-large-letter-spacing: var(
+    --base-letter-spacing-10
+  );
+  --usage-type-display-condensed-large-text-decoration: none;
+  --usage-type-display-condensed-large-text-transform: none;
+  --usage-type-display-condensed-medium-font-family: var(
+    --usage-font-family-condensed
+  );
+  --usage-type-display-condensed-medium-font-weight: var(
+    --usage-font-weight-xstrong
+  );
+  --usage-type-display-condensed-medium-size: var(--base-font-size-40);
+  --usage-type-display-condensed-medium-line-height: var(--base-line-height-30);
+  --usage-type-display-condensed-medium-letter-spacing: var(
+    --base-letter-spacing-20
+  );
+  --usage-type-display-condensed-medium-text-decoration: none;
+  --usage-type-display-condensed-medium-text-transform: none;
+  --comp-border-width-button-toggle-group-selected: var(
+    --usage-border-width-default
+  );
+  --comp-space-tag-padding-x-small: var(--usage-space-x-small);
+  --comp-space-tag-padding-small: var(--usage-space-x-small);
+  --comp-space-tag-padding-medium: var(--usage-space-small);
+  --comp-space-tag-padding-large: var(--usage-space-small);
+  --comp-space-button-toggle-group-padding: var(--usage-space-xx-small);
+  --comp-space-button-toggle-contained-gap: var(--usage-space-xxx-small);
+  --comp-space-button-toggle-contained-padding: var(--usage-space-xxx-small);
+  --comp-space-button-gap-medium: var(--usage-space-x-small);
+  --comp-space-button-gap-large: var(--usage-space-small);
+  --comp-border-radius-tag: var(--usage-border-radius-full);
+  --comp-color-tag-text-highlight: var(--usage-color-highlight-strong-default);
+  --comp-color-tag-icon-highlight: var(--usage-color-highlight-strong-default);
+  --comp-color-tag-background-highlight: var(
+    --usage-color-highlight-subdued-default
+  );
+  --comp-color-tag-background-emphasis-highlight: var(
+    --usage-color-highlight-default
+  );
+  --comp-color-banner-icon-highlight: var(--usage-color-highlight-default);
+  --comp-color-canvas-tag-background-default: var(--base-color-red-60);
+  --comp-color-button-toggle-contained-background-default: var(
+    --usage-color-background-subdued-default
+  );
+  --comp-color-button-toggle-contained-background-selected: var(
+    --base-color-white
+  );
+  --comp-color-button-toggle-contained-background-selected-hovered: var(
+    --base-color-neutral-5
+  );
+  --comp-color-button-toggle-contained-background-selected-pressed: var(
+    --base-color-neutral-10
+  );
+  --comp-color-button-toggle-contained-border-default: var(
+    --usage-color-background-subdued-default
+  );
+  --comp-color-button-toggle-contained-border-selected: var(
+    --usage-color-border-default
+  );
+  --comp-color-button-toggle-contained-border-selected-hovered: var(
+    --usage-color-border-hovered
+  );
+  --comp-color-button-toggle-contained-border-selected-pressed: var(
+    --usage-color-border-pressed
+  );
+  --comp-color-button-toggle-contained-border-selected-disabled: var(
+    --usage-color-border-disabled
+  );
+  --comp-color-button-toggle-contained-text-selected: var(
+    --usage-color-text-selected
+  );
+  --comp-color-button-toggle-contained-text-selected-hovered: var(
+    --usage-color-text-selected-hovered
+  );
+  --comp-color-button-toggle-contained-text-selected-pressed: var(
+    --usage-color-text-selected-pressed
+  );
+  --comp-color-button-toggle-contained-icon-selected: var(
+    --usage-color-icon-selected
+  );
+  --comp-color-button-toggle-contained-icon-selected-hovered: var(
+    --usage-color-icon-selected-hovered
+  );
+  --comp-color-button-toggle-contained-icon-selected-pressed: var(
+    --usage-color-icon-selected-pressed
+  );
+  --comp-color-button-toggle-uncontained-background-selected: var(
+    --usage-color-background-default
+  );
+  --comp-color-button-toggle-uncontained-background-selected-hovered: var(
+    --usage-color-background-subdued-default
+  );
+  --comp-color-button-toggle-uncontained-background-selected-pressed: var(
+    --usage-color-background-subdued-hovered
+  );
+  --comp-color-button-toggle-uncontained-text-selected: var(
+    --usage-color-action-secondary-default
+  );
+  --comp-color-button-toggle-uncontained-text-selected-hovered: var(
+    --usage-color-action-secondary-hovered
+  );
+  --comp-color-button-toggle-uncontained-text-selected-pressed: var(
+    --usage-color-action-secondary-pressed
+  );
+  --comp-color-button-toggle-uncontained-icon-selected: var(
+    --usage-color-action-secondary-default
+  );
+  --comp-color-button-toggle-uncontained-icon-selected-hovered: var(
+    --usage-color-action-secondary-hovered
+  );
+  --comp-color-button-toggle-uncontained-icon-selected-pressed: var(
+    --usage-color-action-secondary-pressed
+  );
+  --comp-type-empty-state-title-font-family: var(
+    --usage-type-title-large-font-family
+  );
+  --comp-type-empty-state-title-font-weight: var(
+    --usage-type-title-large-font-weight
+  );
+  --comp-type-empty-state-title-size: var(--usage-type-title-large-size);
+  --comp-type-empty-state-title-line-height: var(
+    --usage-type-title-large-line-height
+  );
+  --comp-type-empty-state-title-letter-spacing: var(
+    --usage-type-title-large-letter-spacing
+  );
+  --comp-type-empty-state-title-text-decoration: none;
+  --comp-type-empty-state-title-text-transform: none;
+  --comp-elevation-button-toggle-group-selected: 0px 6px 20px 0px #19191933;
+}
+
+.logo,
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
+.logo svg {
+  width: 32;
+  height: 18;
+  fill: red;
+}
+
+.logo-text {
+  margin-left: 5px;
+}
+
+header button {
+  font-size: 18px;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.hero-section {
+  background: url("/img/hero_desktop.png");
+  height: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
+.hero-section .logo svg {
+  fill: white !important;
+}
+.hero-section h1 {
+  font-family:
+    "TTNormsProCond-Blk",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 900;
+  font-weight: 900;
+  font-size: 40px;
+}
+.search-container {
+  width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 8px 8px 8px 20px;
+}
+
+.search-container input {
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  text-indent: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.arrow-btn {
+  background-color: red;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.btn-container {
+  display: flex;
+}
+.btn-container button {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+}
